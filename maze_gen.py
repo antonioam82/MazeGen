@@ -16,3 +16,12 @@ pygame.mixer.init()
 screen = pygame.display.set_mode((WIDTH,HEIGHT))
 pygame.display.set_caption("Maze Grnerator")
 clock = pygame.time.Clock()
+
+x = 0
+y = 0
+w = 20
+grid = []
+visited = []
+stack = []
+solution = []
+
